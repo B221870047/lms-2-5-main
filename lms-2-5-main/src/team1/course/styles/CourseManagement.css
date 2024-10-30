@@ -1,0 +1,65 @@
+.course-user-management {
+    padding: 20px;
+}
+
+.user-control {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user-control input {
+    padding: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.user-control button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-control button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.back-button {
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.course-user-management .student-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+.course-user-management .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+

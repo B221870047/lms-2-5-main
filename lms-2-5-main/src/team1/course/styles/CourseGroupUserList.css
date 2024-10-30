@@ -1,0 +1,19 @@
+.course-group-user-list {
+    padding: 20px;
+}
+
+.course-group-user-list h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.course-group-user-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.course-group-user-list li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}

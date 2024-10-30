@@ -1,0 +1,177 @@
+.guest-home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #202c34;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .auth-button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .signup {
+    color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .login {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .hero-section {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .hero-image {
+    width: 80%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .stats-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .stats-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 3rem;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  
+  .stat-item {
+    flex: 1;
+  }
+  
+  .stat-item h3 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-item p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .universities-section {
+    padding: 4rem 2rem;
+  }
+  
+  .universities-section h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: larger;
+    margin-left: 30px;
+  }
+  
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .university-card {
+    min-width: 20%;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .university-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .university-card h3 {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .stats-container {
+      flex-direction: column;
+    }
+  
+    .university-card {
+      min-width: 50%;
+    }
+  
+    .nav-header {
+      padding: 1rem;
+    }
+  
+    .site-title {
+      font-size: 1.2rem;
+    }
+  
+    .auth-button {
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .university-card {
+      min-width: 100%;
+    }
+  }
